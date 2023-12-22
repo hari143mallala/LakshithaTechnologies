@@ -878,3 +878,6 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.homebox{
+  height: 400px !important;
+}
