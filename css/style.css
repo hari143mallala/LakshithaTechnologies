@@ -882,3 +882,6 @@ a:focus {
   height: 400px !important;
   text-align: justify !important;
 }
+.rowbox{
+  height: 350px !important;
+}
