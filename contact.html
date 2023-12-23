@@ -168,7 +168,7 @@
             <div class="row">
                 <div class="col-md-12">
                         <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading">Connect Google Spreadsheet to HTML</h3>
+                            <h3 class="register-heading">Contact Us</h3>
                             <div class="row register-form">
                                 <div class="col-md-12">
                                     <form method="post" autocomplete="off" name="google-sheet">
@@ -182,6 +182,9 @@
                                             <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
                                         </div>
                                         <div class="form-group">
+                                          <input type="text" name="Message" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+                                      </div>
+                                        <div class="form-group">
                                             <input type="submit" name="submit" class="btnSubmit btn-block" value="Login" />
                                         </div>
                                     </form>
@@ -193,7 +196,7 @@
         </div>
           
           <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwCVRBCZZ-1rtPnWD9Y95kgdK69Y300v794VNThyG9-gVYBumW35kMBs3CT2pRv4jA3XQ/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
